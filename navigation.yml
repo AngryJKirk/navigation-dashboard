@@ -1,0 +1,35 @@
+sorted: true
+titles:
+  - title:
+      name: "database tools"
+      items:
+        - name: "metabase"
+          logo: 📊
+          url: "https://metabase.example.com"
+        - name: "pg"
+          logo: "💾"
+          url: "https://pg.example.com"
+  - title:
+      name: "tools"
+      items:
+        - name: "notes"
+          logo: "📓"
+          url: "https://md.example.com"
+        - name: "torrent"
+          logo: "🏴‍☠️"
+          url: "https://torrent.example.com"
+        - name: "passwords"
+          logo: "🔐"
+          url: "https://password.example.com"
+        - name: "terminal"
+          logo: "💻"
+          url: "https://hacker.example.com"
+  - title:
+      name: "misc"
+      items:
+        - name: "cat or dog"
+          logo: "🙀"
+          url: "https://play.example.com"
+        - name: "memory game"
+          logo: "🧠"
+          url: "https://example.com/memorygame"
