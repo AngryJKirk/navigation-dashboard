@@ -7,6 +7,8 @@ Most of the dashboards are heavy and have many features many people don't need.
 
 Here is mine:
 
+![](https://storozhenko.dev/images/navigation.gif)
+
 ### Pros:
 
 1) static html, 0 lines of JS
