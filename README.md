@@ -77,5 +77,11 @@ If not, just run `pip3 install pyyaml`.
 Then run `python3 main.py > index.html` and put the `index.html` in your favorite web server. If you don't have one, I
 recommend [caddy](https://caddyserver.com/). You also may just store the `index.html` locally and open it everytime you need to navigate.
 
+### Docker install with nginx webserver:
 
+1. Edit the yml file with your necessaries 
+2. `docker build -t victim/navigation-dashboard .`
+3. `docker run --name=navigationdashboard -d -p 8080:80 victim/navigation-dashboard`
+4. Go to http://yourip:8080 or http://localhost:8080 to see the results
 
+If you want to change your listed websites you'll need to destroy the container and rebuild with any changes.
